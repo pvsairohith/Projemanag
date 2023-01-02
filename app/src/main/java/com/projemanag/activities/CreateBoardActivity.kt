@@ -55,6 +55,9 @@ class CreateBoardActivity : BaseActivity(){
             }
 
         }
+        btn_create.setOnClickListener {
+            uploadBoardImage()
+        }
 
 
 
@@ -88,7 +91,6 @@ class CreateBoardActivity : BaseActivity(){
                     createBoard()
                 }
             }
-
 
         }
 
