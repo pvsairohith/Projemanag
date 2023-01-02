@@ -85,6 +85,7 @@ class CreateBoardActivity : BaseActivity(){
                 it.metadata!!.reference!!.downloadUrl.addOnSuccessListener {
                     uri->
                     mboardimageurl = uri.toString()
+                    createBoard()
                 }
             }
 
